@@ -1,15 +1,20 @@
 {
   "name": "check-ethereum-scanner",
-  "version": "1.0.0",
-  "description": "safety checks for new ethereal tokens",
+  "version": "1.0.1",
+  "description": "Safety checks for new Ethereum tokens",
   "main": "check.js",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": [],
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "security",
+    "tokens"
+  ],
   "author": "gurtymcburty",
   "license": "ISC",
   "dependencies": {
-    "ownership-renounced-tracker": "^1.0.0"
+    "ownership-renounced-tracker": "^1.1.2"
   }
 }
